@@ -1,0 +1,95 @@
+body{
+  background-color: #4B0082;  
+}
+
+.background{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__bord{
+      width: 60%;
+      // border: solid;
+      background-color: white;
+      border-radius: 10px;
+      &__content{
+        margin: 30px;
+        & h1{
+          font-size: 25px;
+          margin-bottom: 20px;
+        }
+        &__form{
+          display: flex;
+          justify-content: space-between;
+          &--text{
+              width: 80%;
+              height: 30px;
+          }
+          &--submit{
+            width: 70px;
+              color: blue;
+              border-color: blue;
+              border-radius: 5px;
+              padding: 5px;
+              background-color:white;
+          }
+        }
+        &__table{
+          // border: solid;
+          margin-top: 30px;
+          width: 100%;
+          &__tr{
+            // display:block;
+            // margin:auto;
+            text-align: center;
+            // border: solid;
+            height: 40px;
+            &--create{
+              width: 30%;
+            }
+            &--task{
+              width: 40%;
+            }
+            &--update{
+              // width: 40%;
+            }
+            &--delete{
+              // width: 40%;
+            }
+          }
+        &__tr2{
+            text-align: center;
+            height: 45px;
+          &--create{
+
+          }
+          &--task{
+            width: 80%;
+            border: solid 1px;
+            border-radius: 5px;
+            border-color: #DCDCDC;
+            padding: 5px;
+          }
+          &--update{
+            width: 70px;
+            color:#FF4500;
+            border-color: #FF4500;
+            border-radius: 5px;
+            padding: 5px;
+            border: solid;
+            background-color:white;
+          }
+          &--delete{
+            width: 70px;
+            color: #D3D3D3;
+            border-color: #D3D3D3;
+            border-radius: 5px;
+            border: solid;
+            padding: 5px;
+            background-color:white;
+          }
+        }
+        }
+      }
+    }
+}
